@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Handoff",
+  "short_name": "Handoff",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f5f6f2",
+  "description": "Local delivery for shops in Toronto.",
+  "theme_color": "#f5f6f2"
+}

@@ -1,0 +1,19 @@
+# Gently workspace runtime for the Handoff marketing site.
+# One Node app: the Qwik City dev server on a fixed port.
+
+tools:
+  - nodejs_22
+
+apps:
+  web:
+    port: 3100
+    routes:
+      - path: /
+    env:
+      VITE_ALLOWED_HOSTS: "{{ gently.GENTLY_DOMAIN }}"
+    setup:
+      - npm install
+    startup:
+      - npm run dev
+    health:
+      - endpoint: /
