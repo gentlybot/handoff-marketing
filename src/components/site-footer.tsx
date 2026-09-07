@@ -21,6 +21,14 @@ export const SiteFooter = component$(() => {
             Routes built for your cutoff, couriers who live nearby, and proof at
             every door.
           </p>
+          <div class="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm font-semibold">
+            <Link href="/merchant/login" class="hover:text-moss">
+              Merchant login
+            </Link>
+            <Link href="/courier/login" class="hover:text-moss">
+              Courier login
+            </Link>
+          </div>
         </div>
         <div>
           <p class="h-sub">Explore</p>
