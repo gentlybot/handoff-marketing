@@ -22,10 +22,10 @@ export const SiteFooter = component$(() => {
             every door.
           </p>
           <div class="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm font-semibold">
-            <Link href="/merchant/login" class="hover:text-moss">
+            <Link href="/merchant/login/" class="hover:text-moss">
               Merchant login
             </Link>
-            <Link href="/courier/login" class="hover:text-moss">
+            <Link href="/courier/login/" class="hover:text-moss">
               Courier login
             </Link>
           </div>
