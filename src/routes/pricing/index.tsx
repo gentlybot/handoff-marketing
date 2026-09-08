@@ -113,7 +113,7 @@ export const head: DocumentHead = {
     {
       name: "description",
       content:
-        "Handoff pricing: one price per stop by zone, from $7.50 in the Toronto core. Volume rates above 200 stops a week. No monthly fee.",
+        "Crosstown pricing: one price per stop by zone, from $7.50 in the Toronto core. Volume rates above 200 stops a week. No monthly fee.",
     },
   ],
 };

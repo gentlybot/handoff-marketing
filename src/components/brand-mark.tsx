@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 
-/** The Handoff door tag. A hanger tag with a hole, stamped with a check. */
+/** The Crosstown door tag. A hanger tag with a hole, stamped with a check. */
 export const BrandMark = component$<{ class?: string }>((props) => {
   return (
     <svg

@@ -4,14 +4,14 @@
  */
 
 export const site = {
-  name: "Handoff",
+  name: "Crosstown",
   tagline: "Local delivery your customers can follow to the door.",
   city: "Toronto",
   region: "Toronto, Ontario",
-  email: "hello@handoff.delivery",
-  courierEmail: "drive@handoff.delivery",
+  email: "hello@crosstown.delivery",
+  courierEmail: "drive@crosstown.delivery",
   phone: "(416) 555-0142",
-  url: "https://handoff.delivery",
+  url: "https://crosstown.delivery",
 };
 
 export const nav = [
@@ -23,9 +23,9 @@ export const nav = [
 
 export const hero = {
   headline: "Local delivery your customers can follow to the door.",
-  body: "Handoff runs same-day and next-day delivery for shops in Toronto. Send us your orders by your cutoff, we build the routes, local couriers make the handoff, and every customer gets a tracking page with a photo at the door.",
+  body: "Crosstown runs same-day and next-day delivery for shops in Toronto. Send us your orders by your cutoff, we build the routes, local couriers deliver, and every customer gets a tracking page with a photo at the door.",
   primary: { label: "Request a merchant account", href: "/contact/" },
-  secondary: { label: "Drive with Handoff", href: "/couriers/" },
+  secondary: { label: "Drive with Crosstown", href: "/couriers/" },
   audience:
     "Florists, bakeries, meal kits, pharmacies, and any shop with something to deliver today.",
 };
@@ -39,13 +39,13 @@ export const sampleRoute = {
     {
       name: "R. Okafor",
       address: "22 Palmerston Ave",
-      status: "Handed off 2:41 pm",
+      status: "Delivered 2:41 pm",
       done: true,
     },
     {
       name: "M. Fischer",
       address: "108 Euclid Ave",
-      status: "Handed off 2:58 pm",
+      status: "Delivered 2:58 pm",
       done: true,
     },
     {
@@ -79,7 +79,7 @@ export const steps = [
   },
   {
     title: "Proof at the door",
-    body: "A photo and a note for every handoff. Anything that could not be delivered comes back to you the same evening.",
+    body: "A photo and a note at every door. Anything that could not be delivered comes back to you the same evening.",
   },
 ];
 
@@ -112,7 +112,7 @@ export const included = [
 
 export const courierBand = {
   headline: "Drive when you want. Get paid Friday.",
-  body: "Routes are offered to couriers who live nearby, with the pay shown up front. Accept the ones that fit your day. Pickups, stops, and proof of delivery all run through the Handoff courier app.",
+  body: "Routes are offered to couriers who live nearby, with the pay shown up front. Accept the ones that fit your day. Pickups, stops, and proof of delivery all run through the Crosstown courier app.",
   cta: { label: "See how driving works", href: "/couriers/" },
 };
 
@@ -221,7 +221,7 @@ export const merchantDay = [
   },
   {
     time: "2:30 pm",
-    title: "First handoff",
+    title: "First delivery",
     body: "Customers get an email as the courier gets close, then a photo at the door.",
   },
   {
@@ -263,7 +263,7 @@ export const portalFeatures = [
 export const courierRequirements = [
   "A car, van, or hatchback insured in your name",
   "A valid Ontario G licence and a clean abstract",
-  "A smartphone that can run the Handoff courier app",
+  "A smartphone that can run the Crosstown courier app",
   "A background check, which we arrange and pay for",
   "Availability for at least two afternoons a week",
 ];
@@ -282,7 +282,7 @@ export const courierHow = [
     body: "Every package is scanned at the merchant's counter. If the count is short, you tell the app and move on.",
   },
   {
-    title: "Make the handoffs",
+    title: "Make the deliveries",
     body: "The app orders the stops and navigates. At each door you take a photo, add a note if needed, and mark the stop.",
   },
   {
@@ -342,8 +342,8 @@ export const pricingFaqs = [
 ];
 
 export const contactTopics = [
-  { value: "merchant", label: "I run a shop and want to deliver with Handoff" },
-  { value: "courier", label: "I want to drive for Handoff" },
+  { value: "merchant", label: "I run a shop and want to deliver with Crosstown" },
+  { value: "courier", label: "I want to drive for Crosstown" },
   { value: "other", label: "Something else" },
 ];
 

@@ -1,6 +1,6 @@
 {
-  "name": "handoff-marketing",
-  "description": "Marketing site for Handoff, a sample local delivery company used in product demos.",
+  "name": "crosstown-marketing",
+  "description": "Marketing site for Crosstown, a sample local delivery company used in product demos.",
   "engines": {
     "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
   },

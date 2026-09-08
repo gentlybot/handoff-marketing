@@ -1,6 +1,6 @@
-# Handoff marketing site: agent guide
+# Crosstown marketing site: agent guide
 
-Marketing site for Handoff, a fictional same-day delivery company for local
+Marketing site for Crosstown, a fictional same-day delivery company for local
 shops in Toronto. **Static content only: no database, no auth, no external
 services.** The contact form is a Qwik City server action that validates and
 logs; it does not send email.

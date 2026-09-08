@@ -1,7 +1,7 @@
-# Handoff marketing site
+# Crosstown marketing site
 
-The public site for **Handoff**, a sample same-day delivery company for local
-shops in Toronto. Handoff is a fictional business used to demo product
+The public site for **Crosstown**, a sample same-day delivery company for local
+shops in Toronto. Crosstown is a fictional business used to demo product
 workflows; this repo is its marketing site.
 
 Built with [Qwik City](https://qwik.dev/) and Tailwind CSS v4. Server-rendered,
@@ -11,7 +11,7 @@ no database, no third-party services.
 
 - `/` home: hero with a live route sheet, how a delivery day works, what is
   included, coverage zones, pricing teaser, FAQ
-- `/merchants/` how Handoff works for shops
+- `/merchants/` how Crosstown works for shops
 - `/couriers/` how driving works, sample route pay, requirements
 - `/pricing/` per-stop prices by zone, volume rates, extras
 - `/contact/` request form (server action, logs to the console)

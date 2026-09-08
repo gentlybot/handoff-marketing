@@ -162,7 +162,7 @@ export default component$(() => {
         headline="Ready to send your first batch?"
         body="Request an account and we will set up your pickup address, cutoff, and zones within a business day."
         primary={{ label: "Request a merchant account", href: "/contact/" }}
-        secondary={{ label: "Drive with Handoff", href: "/couriers/" }}
+        secondary={{ label: "Drive with Crosstown", href: "/couriers/" }}
       />
     </>
   );

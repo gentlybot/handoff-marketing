@@ -52,7 +52,7 @@ export default component$(() => {
               <p class="mt-4 text-smoke">
                 {action.value.topic === "courier"
                   ? "Someone from the courier team will email you within two business days with the application steps."
-                  : "Someone from Handoff will email you within one business day with a per-stop price and a setup time."}
+                  : "Someone from Crosstown will email you within one business day with a per-stop price and a setup time."}
               </p>
               <Link href="/" class="link mt-6 inline-block">
                 Back to the home page
@@ -212,7 +212,7 @@ export const head: DocumentHead = {
     {
       name: "description",
       content:
-        "Request a Handoff merchant account or apply to drive. We reply within one business day.",
+        "Request a Crosstown merchant account or apply to drive. We reply within one business day.",
     },
   ],
 };

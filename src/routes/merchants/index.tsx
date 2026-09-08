@@ -23,7 +23,7 @@ export default component$(() => {
         <div class="wrap py-16 sm:py-20">
           <div class="grid gap-10 lg:grid-cols-[1fr_2fr]">
             <div>
-              <h2 class="h-section">A day with Handoff</h2>
+              <h2 class="h-section">A day with Crosstown</h2>
               <p class="mt-4 text-smoke">
                 A typical same-day schedule for a shop in the core zone with a
                 2:00 pm cutoff.
@@ -83,7 +83,7 @@ export const head: DocumentHead = {
     {
       name: "description",
       content:
-        "How Handoff works for shops: upload orders, get zone pricing, a courier at your cutoff, tracking in your name, and one weekly invoice.",
+        "How Crosstown works for shops: upload orders, get zone pricing, a courier at your cutoff, tracking in your name, and one weekly invoice.",
     },
   ],
 };

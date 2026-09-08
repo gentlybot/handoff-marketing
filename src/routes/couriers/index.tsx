@@ -15,7 +15,7 @@ export default component$(() => {
     <>
       <PageIntro
         title="Drive routes near home. See the pay before you say yes."
-        lead="Handoff offers routes to couriers who live nearby. Every offer shows the pickup, the stops, the distance, and the pay. Take the ones that fit your day and get paid every Friday."
+        lead="Crosstown offers routes to couriers who live nearby. Every offer shows the pickup, the stops, the distance, and the pay. Take the ones that fit your day and get paid every Friday."
       >
         <Link href="/contact/?topic=courier" class="btn btn-primary">
           Apply to drive
@@ -115,7 +115,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Drive with Handoff",
+  title: "Drive with Crosstown",
   meta: [
     {
       name: "description",
